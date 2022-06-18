@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz App with several questions for learning JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript, learning, Quiz App">
+    <meta name="author" content="Miroslav Jovic">
+    <meta name="robots" content="index, follow">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/JMlogo.png" type="image/x-icon">
+    <script src="aplication/script.js" defer></script>
+</head>
+<body>
+    <h1>Let's take a Quiz!</h1>
+    
+    <div class="quiz_container" id="quizMain">
+        <div class="quiz_header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a">
+                    <label id="a_text" for="a">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b">
+                    <label id="b_text" for="b">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c">
+                    <label id="c_text" for="c">Question</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d">
+                    <label id="d_text" for="d">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button>Submit</button>
+    </div>
+
+    <footer>
+        <div class="close">
+            <p class="attribution">
+              Motivated by <a href="https://github.com/florinpop17" target="_blank">Florin Pop</a>. 
+              Coded by <a href="https://github.com/MirosBL45" target="_blank">Miroslav Jovic</a>.
+            </p>
+          </div>
+    </footer>
+    
+</body>
+</html>
