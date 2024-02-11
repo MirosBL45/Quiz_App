@@ -5,7 +5,7 @@ const quizData = [
         b: '3 years',
         c: '2 years',
         d: '4 years',
-        correctAns: 'c'
+        correctAns: 'b'
     }, {
         question: 'What is the most used programming language in 2019?',
         a: 'Java',
@@ -34,6 +34,13 @@ const quizData = [
         c: '1995',
         d: 'None above',
         correctAns: 'c'
+    }, {
+        question: 'How tall is Burj Khalifa?',
+        a: '953m',
+        b: '724m',
+        c: '850m',
+        d: '828m',
+        correctAns: 'd'
     }
 ]
 
